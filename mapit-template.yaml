@@ -28,7 +28,7 @@ objects:
     output:
       to:
         kind: ImageStreamTag
-        name: redhat-openjdk18-openshift:1.1
+        name: ${APP_NAME}:latest
     source:
       git:
         ref: ${GIT_REF}
